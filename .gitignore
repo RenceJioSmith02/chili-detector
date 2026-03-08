@@ -1,0 +1,9 @@
+/dataset/train*/
+/dataset/val*/
+/dataset/test*/
+
+/web/static/uploads*/
+
+
+venv/
+.env
