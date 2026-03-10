@@ -29,13 +29,12 @@ BATCH_SIZE = 32
 
 INITIAL_EPOCHS = 50
 FINE_TUNE_EPOCHS = 30
-FINE_TUNE_AT = 150           # freeze layers 0..149, unfreeze 150+
+FINE_TUNE_AT = 150          
 LEARNING_RATE_HEAD = 1e-3
-LEARNING_RATE_FINE = 1e-5    # raised from 1e-6 → real fine-tuning signal
-LABEL_SMOOTHING    = 0.1     # label smoothing for better calibration
+LEARNING_RATE_FINE = 1e-5   
+LABEL_SMOOTHING    = 0.1    
 
 # ── Class indices (alphabetical, as Keras assigns them) ──────────────────────
-# cercospora_leaf_spot = 0  |  healthy = 1  |  other_diseases = 2
 CERCOSPORA_IDX = 0
 HEALTHY_IDX    = 1
 OD_IDX         = 2
@@ -286,15 +285,6 @@ y_score = np.array(y_score)
 
 # ==========================================
 # POST-TRAINING THRESHOLD OPTIMIZATION
-#
-# Replaces any hardcoded confidence threshold in app.py.
-#
-# Problem with a fixed threshold approach:
-#   - A single hardcoded value has no empirical basis from the validation set.
-#   - It can silently misclassify cercospora at lower confidence as other_diseases.
-#   - other_diseases becomes a catch-all fallback rather than a genuine prediction.
-#
-# Solution — 2D grid search on val set:
 #   Jointly search cercospora_thresh × od_thresh to maximize macro F1.
 #   Priority: cercospora first (highest crop damage risk) → other_diseases → healthy.
 #   A fine pass refines to 2 decimal places around the best coarse result.

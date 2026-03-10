@@ -11,8 +11,6 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = os.path.join('static', 'uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# compile=False: avoids needing to register the custom focal_loss function
-# at load time. We only use the model for inference, so this is safe.
 model = load_model("../models/best_model.keras", compile=False)
 
 with open("../models/class_names.json", "r") as f:
@@ -149,7 +147,7 @@ def predict():
 
     preds = model.predict(x, verbose=0)[0]
 
-    # Threshold-based classification (replaces old 0.90 whitelist)
+    # Threshold-based classification
     predicted_class, decision_score = classify_with_thresholds(preds)
 
     # Build full probability dict keyed by class name
