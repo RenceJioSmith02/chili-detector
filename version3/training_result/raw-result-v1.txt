@@ -1,0 +1,773 @@
+PS C:\Github-Projetcs\chili-detector> & c:\Github-Projetcs\chili-detector\venv\Scripts\Activate.ps1
+(venv) PS C:\Github-Projetcs\chili-detector> 
+ *  History restored 
+(venv) PS C:\Github-Projetcs\chili-detector> cd version1
+(venv) PS C:\Github-Projetcs\chili-detector\version1> cd web
+(venv) PS C:\Github-Projetcs\chili-detector\version1\web> python app.py
+2026-03-10 22:12:07.413859: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightl
+y different numerical results due to floating-point round-off errors from different computation orders. To turn them
+ off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:12:16.709786: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightl
+y different numerical results due to floating-point round-off errors from different computation orders. To turn them
+ off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:12:26.279231: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized
+ to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with 
+the appropriate compiler flags.
+Loaded class order: ['cercospora_leaf_spot', 'healthy', 'other_diseases']
+Loaded thresholds — Cercospora: 0.22, OD: 0.22
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instea
+d.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.36:5000
+Press CTRL+C to quit
+ * Restarting with stat
+2026-03-10 22:12:28.229282: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightl
+y different numerical results due to floating-point round-off errors from different computation orders. To turn them
+ off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:12:31.545529: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightl
+y different numerical results due to floating-point round-off errors from different computation orders. To turn them
+ off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:12:34.058349: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized
+ to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with 
+the appropriate compiler flags.
+Loaded class order: ['cercospora_leaf_spot', 'healthy', 'other_diseases']
+Loaded thresholds — Cercospora: 0.22, OD: 0.22
+ * Debugger is active!
+ * Debugger PIN: 130-150-915
+127.0.0.1 - - [10/Mar/2026 22:12:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Mar/2026 22:12:42] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Mar/2026 22:12:42] "GET /static/js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Mar/2026 22:12:42] "GET /favicon.ico HTTP/1.1" 404 -
+
+ *  History restored 
+
+PS C:\Github-Projetcs\chili-detector> & c:\Github-Projetcs\chili-detector\venv\Scripts\Activate.ps1
+(venv) PS C:\Github-Projetcs\chili-detector> cd version1
+(venv) PS C:\Github-Projetcs\chili-detector\version1> cd web
+(venv) PS C:\Github-Projetcs\chili-detector\version1\web> python app.py
+2026-03-10 22:20:48.262931: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:20:51.476928: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:20:54.030154: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loaded class order: ['cercospora_leaf_spot', 'healthy', 'other_diseases']
+Loaded thresholds — Cercospora: 0.22, OD: 0.22
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.36:5000
+Press CTRL+C to quit
+ * Restarting with stat
+2026-03-10 22:20:55.914628: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:20:59.036344: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-10 22:21:01.522938: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loaded class order: ['cercospora_leaf_spot', 'healthy', 'other_diseases']
+Loaded thresholds — Cercospora: 0.22, OD: 0.22
+ * Debugger is active!
+ * Debugger PIN: 130-150-915
+127.0.0.1 - - [10/Mar/2026 22:21:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Mar/2026 22:21:17] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Mar/2026 22:21:17] "GET /static/js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Mar/2026 22:21:17] "GET /favicon.ico HTTP/1.1" 404 -
+RAW argmax: healthy (88.6%) | Cercospora=3.3% (thresh=0.22) | OD=8.1% (thresh=0.22) | → FINAL: healthy
+127.0.0.1 - - [10/Mar/2026 22:21:23] "POST /predict HTTP/1.1" 200 -
+RAW argmax: healthy (94.9%) | Cercospora=3.2% (thresh=0.22) | OD=1.9% (thresh=0.22) | → FINAL: healthy
+127.0.0.1 - - [10/Mar/2026 22:21:27] "POST /predict HTTP/1.1" 200 -
+RAW argmax: healthy (95.3%) | Cercospora=2.2% (thresh=0.22) | OD=2.5% (thresh=0.22) | → FINAL: healthy
+127.0.0.1 - - [10/Mar/2026 22:21:31] "POST /predict HTTP/1.1" 200 -
+RAW argmax: healthy (97.4%) | Cercospora=1.4% (thresh=0.22) | OD=1.2% (thresh=0.22) | → FINAL: healthy
+127.0.0.1 - - [10/Mar/2026 22:21:55] "POST /predict HTTP/1.1" 200 -
+RAW argmax: healthy (99.1%) | Cercospora=0.4% (thresh=0.22) | OD=0.5% (thresh=0.22) | → FINAL: healthy
+127.0.0.1 - - [10/Mar/2026 22:21:59] "POST /predict HTTP/1.1" 200 -
+RAW argmax: healthy (95.8%) | Cercospora=1.9% (thresh=0.22) | OD=2.3% (thresh=0.22) | → FINAL: healthy
+127.0.0.1 - - [10/Mar/2026 22:22:12] "POST /predict HTTP/1.1" 200 -
+RAW argmax: healthy (47.2%) | Cercospora=17.1% (thresh=0.22) | OD=35.8% (thresh=0.22) | → FINAL: other_diseases
+127.0.0.1 - - [10/Mar/2026 22:24:40] "POST /predict HTTP/1.1" 200 -
+RAW argmax: other_diseases (86.7%) | Cercospora=5.1% (thresh=0.22) | OD=86.7% (thresh=0.22) | → FINAL: other_diseases
+127.0.0.1 - - [10/Mar/2026 22:25:04] "POST /predict HTTP/1.1" 200 -
+
+ *  History restored 
+(venv) PS C:\Github-Projetcs\chili-detector> cd version3
+(venv) PS C:\Github-Projetcs\chili-detector\version3> python mobilenetv2_train.py
+2026-03-15 00:18:56.566658: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-03-15 00:19:04.006132: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Found 5445 files belonging to 3 classes.
+2026-03-15 00:19:14.263514: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Found 696 files belonging to 3 classes.
+Found 735 files belonging to 3 classes.
+Class order: ['cercospora_leaf_spot', 'healthy', 'other_diseases']
+2026-03-15 00:19:20.981258: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Class weights: {0: np.float64(1.0946924004825092), 1: np.float64(0.6377371749824314), 2: np.float64(1.9287991498405952)}
+=== Stage 1: Training Head ===
+Epoch 1/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 271ms/step - accuracy: 0.8251 - loss: 0.8138 
+Epoch 1: val_loss improved from None to 0.57750, saving model to models/best_model.keras
+
+Epoch 1: finished saving model to models/best_model.keras
+2026-03-15 00:20:29.817435: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+
+Epoch 1 – Precision: 0.9282 | Recall: 0.9253 | F1: 0.9250
+171/171 ━━━━━━━━━━━━━━━━━━━━ 68s 357ms/step - accuracy: 0.8856 - loss: 0.6915 - val_accuracy: 0.9253 - val_loss: 0.5775 - learning_rate: 0.0010
+Epoch 2/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 267ms/step - accuracy: 0.9197 - loss: 0.5935 
+Epoch 2: val_loss improved from 0.57750 to 0.52564, saving model to models/best_model.keras
+
+Epoch 2: finished saving model to models/best_model.keras
+
+Epoch 2 – Precision: 0.9486 | Recall: 0.9468 | F1: 0.9468
+171/171 ━━━━━━━━━━━━━━━━━━━━ 56s 326ms/step - accuracy: 0.9254 - loss: 0.5786 - val_accuracy: 0.9468 - val_loss: 0.5256 - learning_rate: 0.0010
+Epoch 3/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 269ms/step - accuracy: 0.9321 - loss: 0.5616  
+Epoch 3: val_loss improved from 0.52564 to 0.50428, saving model to models/best_model.keras
+
+Epoch 3: finished saving model to models/best_model.keras
+2026-03-15 00:22:21.751559: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+
+Epoch 3 – Precision: 0.9552 | Recall: 0.9540 | F1: 0.9543
+171/171 ━━━━━━━━━━━━━━━━━━━━ 56s 328ms/step - accuracy: 0.9390 - loss: 0.5553 - val_accuracy: 0.9540 - val_loss: 0.5043 - learning_rate: 0.0010
+Epoch 4/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 268ms/step - accuracy: 0.9536 - loss: 0.5385 
+Epoch 4: val_loss did not improve from 0.50428
+
+Epoch 4 – Precision: 0.9542 | Recall: 0.9540 | F1: 0.9538
+171/171 ━━━━━━━━━━━━━━━━━━━━ 55s 323ms/step - accuracy: 0.9546 - loss: 0.5275 - val_accuracy: 0.9540 - val_loss: 0.5138 - learning_rate: 0.0010
+Epoch 5/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 274ms/step - accuracy: 0.9559 - loss: 0.5240 
+Epoch 5: val_loss did not improve from 0.50428
+
+Epoch 5 – Precision: 0.9516 | Recall: 0.9497 | F1: 0.9501
+171/171 ━━━━━━━━━━━━━━━━━━━━ 56s 330ms/step - accuracy: 0.9565 - loss: 0.5183 - val_accuracy: 0.9497 - val_loss: 0.5045 - learning_rate: 0.0010
+Epoch 6/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 280ms/step - accuracy: 0.9572 - loss: 0.5116 
+Epoch 6: val_loss improved from 0.50428 to 0.49623, saving model to models/best_model.keras
+
+Epoch 6: finished saving model to models/best_model.keras
+
+Epoch 6 – Precision: 0.9518 | Recall: 0.9511 | F1: 0.9514
+171/171 ━━━━━━━━━━━━━━━━━━━━ 58s 341ms/step - accuracy: 0.9585 - loss: 0.5076 - val_accuracy: 0.9511 - val_loss: 0.4962 - learning_rate: 0.0010
+Epoch 7/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 291ms/step - accuracy: 0.9630 - loss: 0.4987 
+Epoch 7: val_loss improved from 0.49623 to 0.47712, saving model to models/best_model.keras
+
+Epoch 7: finished saving model to models/best_model.keras
+2026-03-15 00:26:12.428048: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+
+Epoch 7 – Precision: 0.9699 | Recall: 0.9698 | F1: 0.9696
+171/171 ━━━━━━━━━━━━━━━━━━━━ 61s 355ms/step - accuracy: 0.9620 - loss: 0.4965 - val_accuracy: 0.9698 - val_loss: 0.4771 - learning_rate: 0.0010
+Epoch 8/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 294ms/step - accuracy: 0.9640 - loss: 0.4876  
+Epoch 8: val_loss improved from 0.47712 to 0.47211, saving model to models/best_model.keras
+
+Epoch 8: finished saving model to models/best_model.keras
+
+Epoch 8 – Precision: 0.9687 | Recall: 0.9684 | F1: 0.9683
+171/171 ━━━━━━━━━━━━━━━━━━━━ 61s 358ms/step - accuracy: 0.9611 - loss: 0.4901 - val_accuracy: 0.9684 - val_loss: 0.4721 - learning_rate: 0.0010
+Epoch 9/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 308ms/step - accuracy: 0.9627 - loss: 0.4862 
+Epoch 9: val_loss improved from 0.47211 to 0.46947, saving model to models/best_model.keras
+
+Epoch 9: finished saving model to models/best_model.keras
+
+Epoch 9 – Precision: 0.9717 | Recall: 0.9713 | F1: 0.9711
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 373ms/step - accuracy: 0.9629 - loss: 0.4854 - val_accuracy: 0.9713 - val_loss: 0.4695 - learning_rate: 0.0010
+Epoch 10/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 311ms/step - accuracy: 0.9680 - loss: 0.4756 
+Epoch 10: val_loss improved from 0.46947 to 0.46083, saving model to models/best_model.keras
+
+Epoch 10: finished saving model to models/best_model.keras
+
+Epoch 10 – Precision: 0.9713 | Recall: 0.9713 | F1: 0.9712
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 378ms/step - accuracy: 0.9664 - loss: 0.4769 - val_accuracy: 0.9713 - val_loss: 0.4608 - learning_rate: 0.0010
+Epoch 11/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 318ms/step - accuracy: 0.9689 - loss: 0.4764  
+Epoch 11: val_loss did not improve from 0.46083
+
+Epoch 11 – Precision: 0.9644 | Recall: 0.9641 | F1: 0.9640
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 382ms/step - accuracy: 0.9668 - loss: 0.4762 - val_accuracy: 0.9641 - val_loss: 0.4653 - learning_rate: 0.0010
+Epoch 12/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 317ms/step - accuracy: 0.9661 - loss: 0.4737  
+Epoch 12: val_loss did not improve from 0.46083
+
+Epoch 12 – Precision: 0.9672 | Recall: 0.9670 | F1: 0.9669
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 382ms/step - accuracy: 0.9660 - loss: 0.4726 - val_accuracy: 0.9670 - val_loss: 0.4615 - learning_rate: 0.0010
+Epoch 13/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 317ms/step - accuracy: 0.9679 - loss: 0.4686  
+Epoch 13: val_loss improved from 0.46083 to 0.45294, saving model to models/best_model.keras
+
+Epoch 13: finished saving model to models/best_model.keras
+
+Epoch 13 – Precision: 0.9677 | Recall: 0.9670 | F1: 0.9671
+171/171 ━━━━━━━━━━━━━━━━━━━━ 66s 385ms/step - accuracy: 0.9673 - loss: 0.4677 - val_accuracy: 0.9670 - val_loss: 0.4529 - learning_rate: 0.0010
+Epoch 14/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 318ms/step - accuracy: 0.9677 - loss: 0.4682  
+Epoch 14: val_loss did not improve from 0.45294
+
+Epoch 14 – Precision: 0.9731 | Recall: 0.9727 | F1: 0.9726
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 382ms/step - accuracy: 0.9658 - loss: 0.4639 - val_accuracy: 0.9727 - val_loss: 0.4531 - learning_rate: 0.0010
+Epoch 15/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 316ms/step - accuracy: 0.9661 - loss: 0.4607 
+Epoch 15: val_loss did not improve from 0.45294
+2026-03-15 00:34:48.615358: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+
+Epoch 15 – Precision: 0.9647 | Recall: 0.9641 | F1: 0.9639
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 380ms/step - accuracy: 0.9640 - loss: 0.4606 - val_accuracy: 0.9641 - val_loss: 0.4532 - learning_rate: 0.0010
+Epoch 16/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 317ms/step - accuracy: 0.9728 - loss: 0.4531 
+Epoch 16: val_loss improved from 0.45294 to 0.44609, saving model to models/best_model.keras
+
+Epoch 16: finished saving model to models/best_model.keras
+
+Epoch 16 – Precision: 0.9698 | Recall: 0.9698 | F1: 0.9697
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 383ms/step - accuracy: 0.9701 - loss: 0.4517 - val_accuracy: 0.9698 - val_loss: 0.4461 - learning_rate: 0.0010
+Epoch 17/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 314ms/step - accuracy: 0.9703 - loss: 0.4545  
+Epoch 17: val_loss improved from 0.44609 to 0.44422, saving model to models/best_model.keras
+
+Epoch 17: finished saving model to models/best_model.keras
+
+Epoch 17 – Precision: 0.9717 | Recall: 0.9713 | F1: 0.9711
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 381ms/step - accuracy: 0.9704 - loss: 0.4496 - val_accuracy: 0.9713 - val_loss: 0.4442 - learning_rate: 0.0010
+Epoch 18/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 316ms/step - accuracy: 0.9704 - loss: 0.4479 
+Epoch 18: val_loss improved from 0.44422 to 0.43350, saving model to models/best_model.keras
+
+Epoch 18: finished saving model to models/best_model.keras
+
+Epoch 18 – Precision: 0.9742 | Recall: 0.9741 | F1: 0.9740
+171/171 ━━━━━━━━━━━━━━━━━━━━ 66s 384ms/step - accuracy: 0.9697 - loss: 0.4473 - val_accuracy: 0.9741 - val_loss: 0.4335 - learning_rate: 0.0010
+Epoch 19/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 319ms/step - accuracy: 0.9688 - loss: 0.4509  
+Epoch 19: val_loss improved from 0.43350 to 0.43241, saving model to models/best_model.keras
+
+Epoch 19: finished saving model to models/best_model.keras
+
+Epoch 19 – Precision: 0.9757 | Recall: 0.9756 | F1: 0.9755
+171/171 ━━━━━━━━━━━━━━━━━━━━ 66s 386ms/step - accuracy: 0.9697 - loss: 0.4471 - val_accuracy: 0.9756 - val_loss: 0.4324 - learning_rate: 0.0010
+Epoch 20/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 315ms/step - accuracy: 0.9682 - loss: 0.4481  
+Epoch 20: val_loss did not improve from 0.43241
+
+Epoch 20 – Precision: 0.9715 | Recall: 0.9713 | F1: 0.9712
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 379ms/step - accuracy: 0.9671 - loss: 0.4489 - val_accuracy: 0.9713 - val_loss: 0.4400 - learning_rate: 0.0010
+Epoch 21/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 318ms/step - accuracy: 0.9748 - loss: 0.4328  
+Epoch 21: val_loss did not improve from 0.43241
+
+Epoch 21 – Precision: 0.9669 | Recall: 0.9655 | F1: 0.9653
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 382ms/step - accuracy: 0.9725 - loss: 0.4364 - val_accuracy: 0.9655 - val_loss: 0.4492 - learning_rate: 0.0010
+Epoch 22/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 318ms/step - accuracy: 0.9715 - loss: 0.4422 
+Epoch 22: val_loss improved from 0.43241 to 0.42558, saving model to models/best_model.keras
+
+Epoch 22: finished saving model to models/best_model.keras
+
+Epoch 22 – Precision: 0.9685 | Recall: 0.9684 | F1: 0.9682
+171/171 ━━━━━━━━━━━━━━━━━━━━ 66s 387ms/step - accuracy: 0.9686 - loss: 0.4441 - val_accuracy: 0.9684 - val_loss: 0.4256 - learning_rate: 0.0010
+Epoch 23/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 315ms/step - accuracy: 0.9726 - loss: 0.4402  
+Epoch 23: val_loss did not improve from 0.42558
+
+Epoch 23 – Precision: 0.9702 | Recall: 0.9698 | F1: 0.9696
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 378ms/step - accuracy: 0.9706 - loss: 0.4392 - val_accuracy: 0.9698 - val_loss: 0.4381 - learning_rate: 0.0010
+Epoch 24/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 315ms/step - accuracy: 0.9717 - loss: 0.4394  
+Epoch 24: val_loss did not improve from 0.42558
+
+Epoch 24 – Precision: 0.9665 | Recall: 0.9655 | F1: 0.9655
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 378ms/step - accuracy: 0.9677 - loss: 0.4428 - val_accuracy: 0.9655 - val_loss: 0.4374 - learning_rate: 0.0010
+Epoch 25/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 314ms/step - accuracy: 0.9721 - loss: 0.4332  
+Epoch 25: val_loss did not improve from 0.42558
+
+Epoch 25 – Precision: 0.9632 | Recall: 0.9626 | F1: 0.9626
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 376ms/step - accuracy: 0.9697 - loss: 0.4358 - val_accuracy: 0.9626 - val_loss: 0.4271 - learning_rate: 0.0010
+Epoch 26/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 314ms/step - accuracy: 0.9697 - loss: 0.4341  
+Epoch 26: val_loss improved from 0.42558 to 0.41545, saving model to models/best_model.keras
+
+Epoch 26: finished saving model to models/best_model.keras
+
+Epoch 26 – Precision: 0.9759 | Recall: 0.9756 | F1: 0.9757
+171/171 ━━━━━━━━━━━━━━━━━━━━ 65s 380ms/step - accuracy: 0.9686 - loss: 0.4366 - val_accuracy: 0.9756 - val_loss: 0.4154 - learning_rate: 0.0010
+Epoch 27/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 311ms/step - accuracy: 0.9723 - loss: 0.4308 
+Epoch 27: val_loss did not improve from 0.41545
+
+Epoch 27 – Precision: 0.9741 | Recall: 0.9741 | F1: 0.9740
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 375ms/step - accuracy: 0.9715 - loss: 0.4334 - val_accuracy: 0.9741 - val_loss: 0.4212 - learning_rate: 0.0010
+Epoch 28/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 310ms/step - accuracy: 0.9669 - loss: 0.4369  
+Epoch 28: val_loss did not improve from 0.41545
+
+Epoch 28 – Precision: 0.9772 | Recall: 0.9770 | F1: 0.9768
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 373ms/step - accuracy: 0.9699 - loss: 0.4341 - val_accuracy: 0.9770 - val_loss: 0.4298 - learning_rate: 0.0010
+Epoch 29/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 310ms/step - accuracy: 0.9769 - loss: 0.4259  
+Epoch 29: val_loss improved from 0.41545 to 0.41076, saving model to models/best_model.keras
+
+Epoch 29: finished saving model to models/best_model.keras
+
+Epoch 29 – Precision: 0.9802 | Recall: 0.9799 | F1: 0.9800
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 376ms/step - accuracy: 0.9728 - loss: 0.4295 - val_accuracy: 0.9799 - val_loss: 0.4108 - learning_rate: 0.0010
+Epoch 30/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 312ms/step - accuracy: 0.9754 - loss: 0.4278 
+Epoch 30: val_loss did not improve from 0.41076
+
+Epoch 30 – Precision: 0.9772 | Recall: 0.9770 | F1: 0.9770
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 375ms/step - accuracy: 0.9739 - loss: 0.4279 - val_accuracy: 0.9770 - val_loss: 0.4147 - learning_rate: 0.0010
+Epoch 31/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 311ms/step - accuracy: 0.9677 - loss: 0.4282 
+Epoch 31: val_loss did not improve from 0.41076
+2026-03-15 00:52:05.642171: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+
+Epoch 31 – Precision: 0.9763 | Recall: 0.9756 | F1: 0.9755
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 374ms/step - accuracy: 0.9704 - loss: 0.4255 - val_accuracy: 0.9756 - val_loss: 0.4215 - learning_rate: 0.0010
+Epoch 32/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 314ms/step - accuracy: 0.9722 - loss: 0.4275 
+Epoch 32: val_loss did not improve from 0.41076
+
+Epoch 32 – Precision: 0.9746 | Recall: 0.9741 | F1: 0.9739
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 377ms/step - accuracy: 0.9712 - loss: 0.4291 - val_accuracy: 0.9741 - val_loss: 0.4231 - learning_rate: 0.0010
+Epoch 33/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 308ms/step - accuracy: 0.9693 - loss: 0.4341  
+Epoch 33: val_loss did not improve from 0.41076
+
+Epoch 33: ReduceLROnPlateau reducing learning rate to 0.0004000000189989805.
+
+Epoch 33 – Precision: 0.9772 | Recall: 0.9770 | F1: 0.9768
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 371ms/step - accuracy: 0.9695 - loss: 0.4344 - val_accuracy: 0.9770 - val_loss: 0.4193 - learning_rate: 0.0010
+Epoch 34/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 312ms/step - accuracy: 0.9713 - loss: 0.4295 
+Epoch 34: val_loss improved from 0.41076 to 0.40450, saving model to models/best_model.keras
+
+Epoch 34: finished saving model to models/best_model.keras
+
+Epoch 34 – Precision: 0.9814 | Recall: 0.9813 | F1: 0.9812
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 377ms/step - accuracy: 0.9708 - loss: 0.4252 - val_accuracy: 0.9813 - val_loss: 0.4045 - learning_rate: 4.0000e-04
+Epoch 35/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 304ms/step - accuracy: 0.9763 - loss: 0.4164  
+Epoch 35: val_loss improved from 0.40450 to 0.40167, saving model to models/best_model.keras
+
+Epoch 35: finished saving model to models/best_model.keras
+
+Epoch 35 – Precision: 0.9786 | Recall: 0.9784 | F1: 0.9783
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 370ms/step - accuracy: 0.9741 - loss: 0.4168 - val_accuracy: 0.9784 - val_loss: 0.4017 - learning_rate: 4.0000e-04
+Epoch 36/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 307ms/step - accuracy: 0.9726 - loss: 0.4214  
+Epoch 36: val_loss did not improve from 0.40167
+
+Epoch 36 – Precision: 0.9800 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 370ms/step - accuracy: 0.9743 - loss: 0.4166 - val_accuracy: 0.9799 - val_loss: 0.4043 - learning_rate: 4.0000e-04
+Epoch 37/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 305ms/step - accuracy: 0.9733 - loss: 0.4142  
+Epoch 37: val_loss did not improve from 0.40167
+
+Epoch 37 – Precision: 0.9772 | Recall: 0.9770 | F1: 0.9769
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 367ms/step - accuracy: 0.9748 - loss: 0.4132 - val_accuracy: 0.9770 - val_loss: 0.4056 - learning_rate: 4.0000e-04
+Epoch 38/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 309ms/step - accuracy: 0.9773 - loss: 0.4037 
+Epoch 38: val_loss improved from 0.40167 to 0.39094, saving model to models/best_model.keras
+
+Epoch 38: finished saving model to models/best_model.keras
+
+Epoch 38 – Precision: 0.9871 | Recall: 0.9871 | F1: 0.9870
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 375ms/step - accuracy: 0.9761 - loss: 0.4044 - val_accuracy: 0.9871 - val_loss: 0.3909 - learning_rate: 4.0000e-04
+Epoch 39/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 308ms/step - accuracy: 0.9755 - loss: 0.4067  
+Epoch 39: val_loss did not improve from 0.39094
+
+Epoch 39 – Precision: 0.9744 | Recall: 0.9741 | F1: 0.9740
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 370ms/step - accuracy: 0.9758 - loss: 0.4059 - val_accuracy: 0.9741 - val_loss: 0.4051 - learning_rate: 4.0000e-04
+Epoch 40/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 311ms/step - accuracy: 0.9776 - loss: 0.3993  
+Epoch 40: val_loss did not improve from 0.39094
+
+Epoch 40 – Precision: 0.9746 | Recall: 0.9741 | F1: 0.9740
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 373ms/step - accuracy: 0.9770 - loss: 0.4005 - val_accuracy: 0.9741 - val_loss: 0.4032 - learning_rate: 4.0000e-04
+Epoch 41/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 310ms/step - accuracy: 0.9770 - loss: 0.4025  
+Epoch 41: val_loss did not improve from 0.39094
+
+Epoch 41 – Precision: 0.9774 | Recall: 0.9770 | F1: 0.9770
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 373ms/step - accuracy: 0.9774 - loss: 0.4006 - val_accuracy: 0.9770 - val_loss: 0.3973 - learning_rate: 4.0000e-04
+Epoch 42/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 309ms/step - accuracy: 0.9779 - loss: 0.4043 
+Epoch 42: val_loss did not improve from 0.39094
+
+Epoch 42: ReduceLROnPlateau reducing learning rate to 0.00016000000759959222.
+
+Epoch 42 – Precision: 0.9786 | Recall: 0.9784 | F1: 0.9783
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 371ms/step - accuracy: 0.9783 - loss: 0.4013 - val_accuracy: 0.9784 - val_loss: 0.3972 - learning_rate: 4.0000e-04
+Epoch 43/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 305ms/step - accuracy: 0.9825 - loss: 0.3919 
+Epoch 43: val_loss did not improve from 0.39094
+
+Epoch 43 – Precision: 0.9786 | Recall: 0.9784 | F1: 0.9783
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 367ms/step - accuracy: 0.9811 - loss: 0.3909 - val_accuracy: 0.9784 - val_loss: 0.3930 - learning_rate: 1.6000e-04
+Epoch 44/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 305ms/step - accuracy: 0.9795 - loss: 0.3928 
+Epoch 44: val_loss did not improve from 0.39094
+
+Epoch 44 – Precision: 0.9772 | Recall: 0.9770 | F1: 0.9770
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 368ms/step - accuracy: 0.9789 - loss: 0.3932 - val_accuracy: 0.9770 - val_loss: 0.3914 - learning_rate: 1.6000e-04
+Epoch 45/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 308ms/step - accuracy: 0.9816 - loss: 0.3920 
+Epoch 45: val_loss improved from 0.39094 to 0.38331, saving model to models/best_model.keras
+
+Epoch 45: finished saving model to models/best_model.keras
+
+Epoch 45 – Precision: 0.9786 | Recall: 0.9784 | F1: 0.9784
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 373ms/step - accuracy: 0.9811 - loss: 0.3909 - val_accuracy: 0.9784 - val_loss: 0.3833 - learning_rate: 1.6000e-04
+Epoch 46/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 305ms/step - accuracy: 0.9795 - loss: 0.3931  
+Epoch 46: val_loss did not improve from 0.38331
+
+Epoch 46 – Precision: 0.9843 | Recall: 0.9842 | F1: 0.9842
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 367ms/step - accuracy: 0.9770 - loss: 0.3938 - val_accuracy: 0.9842 - val_loss: 0.3841 - learning_rate: 1.6000e-04
+Epoch 47/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 311ms/step - accuracy: 0.9779 - loss: 0.3902  
+Epoch 47: val_loss did not improve from 0.38331
+
+Epoch 47 – Precision: 0.9829 | Recall: 0.9828 | F1: 0.9828
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 373ms/step - accuracy: 0.9800 - loss: 0.3889 - val_accuracy: 0.9828 - val_loss: 0.3839 - learning_rate: 1.6000e-04
+Epoch 48/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 307ms/step - accuracy: 0.9806 - loss: 0.3888 
+Epoch 48: val_loss did not improve from 0.38331
+
+Epoch 48 – Precision: 0.9800 | Recall: 0.9799 | F1: 0.9799
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 370ms/step - accuracy: 0.9811 - loss: 0.3884 - val_accuracy: 0.9799 - val_loss: 0.3870 - learning_rate: 1.6000e-04
+Epoch 49/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 311ms/step - accuracy: 0.9823 - loss: 0.3811 
+Epoch 49: val_loss improved from 0.38331 to 0.38286, saving model to models/best_model.keras
+
+Epoch 49: finished saving model to models/best_model.keras
+
+Epoch 49 – Precision: 0.9814 | Recall: 0.9813 | F1: 0.9813
+171/171 ━━━━━━━━━━━━━━━━━━━━ 64s 377ms/step - accuracy: 0.9816 - loss: 0.3814 - val_accuracy: 0.9813 - val_loss: 0.3829 - learning_rate: 1.6000e-04
+Epoch 50/50
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 308ms/step - accuracy: 0.9794 - loss: 0.3821 
+Epoch 50: val_loss did not improve from 0.38286
+
+Epoch 50 – Precision: 0.9814 | Recall: 0.9813 | F1: 0.9813
+171/171 ━━━━━━━━━━━━━━━━━━━━ 63s 371ms/step - accuracy: 0.9803 - loss: 0.3825 - val_accuracy: 0.9813 - val_loss: 0.3837 - learning_rate: 1.6000e-04
+
+Head training stopped at epoch 50
+
+=== Stage 2: Fine-tuning ===
+  Trainable base layers: 4 / 154
+Epoch 51/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9820 - loss: 0.3892 
+Epoch 51: val_loss improved from None to 0.41882, saving model to models/best_model.keras
+
+Epoch 51: finished saving model to models/best_model.keras
+
+Epoch 51 – Precision: 0.9640 | Recall: 0.9626 | F1: 0.9623
+171/171 ━━━━━━━━━━━━━━━━━━━━ 83s 443ms/step - accuracy: 0.9818 - loss: 0.3868 - val_accuracy: 0.9626 - val_loss: 0.4188 - learning_rate: 1.0000e-05
+Epoch 52/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 353ms/step - accuracy: 0.9826 - loss: 0.3863  
+Epoch 52: val_loss did not improve from 0.41882
+
+Epoch 52 – Precision: 0.9550 | Recall: 0.9526 | F1: 0.9521
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 423ms/step - accuracy: 0.9831 - loss: 0.3850 - val_accuracy: 0.9526 - val_loss: 0.4324 - learning_rate: 1.0000e-05
+Epoch 53/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 358ms/step - accuracy: 0.9826 - loss: 0.3824  
+Epoch 53: val_loss did not improve from 0.41882
+
+Epoch 53 – Precision: 0.9601 | Recall: 0.9583 | F1: 0.9579
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 428ms/step - accuracy: 0.9822 - loss: 0.3821 - val_accuracy: 0.9583 - val_loss: 0.4219 - learning_rate: 1.0000e-05
+Epoch 54/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 355ms/step - accuracy: 0.9783 - loss: 0.3860  
+Epoch 54: val_loss improved from 0.41882 to 0.41218, saving model to models/best_model.keras
+
+Epoch 54: finished saving model to models/best_model.keras
+
+Epoch 54 – Precision: 0.9653 | Recall: 0.9641 | F1: 0.9638
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 428ms/step - accuracy: 0.9800 - loss: 0.3849 - val_accuracy: 0.9641 - val_loss: 0.4122 - learning_rate: 1.0000e-05
+Epoch 55/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 352ms/step - accuracy: 0.9810 - loss: 0.3821  
+Epoch 55: val_loss improved from 0.41218 to 0.40344, saving model to models/best_model.keras
+
+Epoch 55: finished saving model to models/best_model.keras
+
+Epoch 55 – Precision: 0.9679 | Recall: 0.9670 | F1: 0.9667
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 425ms/step - accuracy: 0.9816 - loss: 0.3846 - val_accuracy: 0.9670 - val_loss: 0.4034 - learning_rate: 1.0000e-05
+Epoch 56/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 356ms/step - accuracy: 0.9823 - loss: 0.3857  
+Epoch 56: val_loss improved from 0.40344 to 0.39654, saving model to models/best_model.keras
+
+Epoch 56: finished saving model to models/best_model.keras
+
+Epoch 56 – Precision: 0.9692 | Recall: 0.9684 | F1: 0.9681
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 429ms/step - accuracy: 0.9791 - loss: 0.3899 - val_accuracy: 0.9684 - val_loss: 0.3965 - learning_rate: 1.0000e-05
+Epoch 57/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 352ms/step - accuracy: 0.9803 - loss: 0.3851  
+Epoch 57: val_loss improved from 0.39654 to 0.39356, saving model to models/best_model.keras
+
+Epoch 57: finished saving model to models/best_model.keras
+
+Epoch 57 – Precision: 0.9746 | Recall: 0.9741 | F1: 0.9740
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 425ms/step - accuracy: 0.9798 - loss: 0.3854 - val_accuracy: 0.9741 - val_loss: 0.3936 - learning_rate: 1.0000e-05
+Epoch 58/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 352ms/step - accuracy: 0.9814 - loss: 0.3844  
+Epoch 58: val_loss improved from 0.39356 to 0.38986, saving model to models/best_model.keras
+
+Epoch 58: finished saving model to models/best_model.keras
+
+Epoch 58 – Precision: 0.9759 | Recall: 0.9756 | F1: 0.9754
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 425ms/step - accuracy: 0.9803 - loss: 0.3846 - val_accuracy: 0.9756 - val_loss: 0.3899 - learning_rate: 1.0000e-05
+Epoch 59/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 352ms/step - accuracy: 0.9806 - loss: 0.3818  
+Epoch 59: val_loss improved from 0.38986 to 0.38721, saving model to models/best_model.keras
+
+Epoch 59: finished saving model to models/best_model.keras
+
+Epoch 59 – Precision: 0.9759 | Recall: 0.9756 | F1: 0.9754
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 425ms/step - accuracy: 0.9803 - loss: 0.3839 - val_accuracy: 0.9756 - val_loss: 0.3872 - learning_rate: 1.0000e-05
+Epoch 60/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 344ms/step - accuracy: 0.9839 - loss: 0.3817  
+Epoch 60: val_loss improved from 0.38721 to 0.38476, saving model to models/best_model.keras
+
+Epoch 60: finished saving model to models/best_model.keras
+
+Epoch 60 – Precision: 0.9774 | Recall: 0.9770 | F1: 0.9769
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 417ms/step - accuracy: 0.9831 - loss: 0.3822 - val_accuracy: 0.9770 - val_loss: 0.3848 - learning_rate: 1.0000e-05
+Epoch 61/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 345ms/step - accuracy: 0.9773 - loss: 0.3876  
+Epoch 61: val_loss improved from 0.38476 to 0.38357, saving model to models/best_model.keras
+
+Epoch 61: finished saving model to models/best_model.keras
+
+Epoch 61 – Precision: 0.9787 | Recall: 0.9784 | F1: 0.9783
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 416ms/step - accuracy: 0.9780 - loss: 0.3887 - val_accuracy: 0.9784 - val_loss: 0.3836 - learning_rate: 1.0000e-05
+Epoch 62/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 342ms/step - accuracy: 0.9815 - loss: 0.3801  
+Epoch 62: val_loss improved from 0.38357 to 0.38156, saving model to models/best_model.keras
+
+Epoch 62: finished saving model to models/best_model.keras
+
+Epoch 62 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 414ms/step - accuracy: 0.9827 - loss: 0.3820 - val_accuracy: 0.9799 - val_loss: 0.3816 - learning_rate: 1.0000e-05
+Epoch 63/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 349ms/step - accuracy: 0.9764 - loss: 0.3872  
+Epoch 63: val_loss improved from 0.38156 to 0.38067, saving model to models/best_model.keras
+
+Epoch 63: finished saving model to models/best_model.keras
+2026-03-15 01:28:02.919155: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+
+Epoch 63 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 422ms/step - accuracy: 0.9785 - loss: 0.3853 - val_accuracy: 0.9799 - val_loss: 0.3807 - learning_rate: 1.0000e-05
+Epoch 64/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 348ms/step - accuracy: 0.9849 - loss: 0.3763  
+Epoch 64: val_loss improved from 0.38067 to 0.38033, saving model to models/best_model.keras
+
+Epoch 64: finished saving model to models/best_model.keras
+
+Epoch 64 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 420ms/step - accuracy: 0.9824 - loss: 0.3804 - val_accuracy: 0.9799 - val_loss: 0.3803 - learning_rate: 1.0000e-05
+Epoch 65/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9827 - loss: 0.3825  
+Epoch 65: val_loss improved from 0.38033 to 0.37894, saving model to models/best_model.keras
+
+Epoch 65: finished saving model to models/best_model.keras
+
+Epoch 65 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 419ms/step - accuracy: 0.9829 - loss: 0.3842 - val_accuracy: 0.9799 - val_loss: 0.3789 - learning_rate: 1.0000e-05
+Epoch 66/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 353ms/step - accuracy: 0.9809 - loss: 0.3794  
+Epoch 66: val_loss did not improve from 0.37894
+
+Epoch 66 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 421ms/step - accuracy: 0.9827 - loss: 0.3784 - val_accuracy: 0.9799 - val_loss: 0.3792 - learning_rate: 1.0000e-05
+Epoch 67/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9820 - loss: 0.3774  
+Epoch 67: val_loss improved from 0.37894 to 0.37870, saving model to models/best_model.keras
+
+Epoch 67: finished saving model to models/best_model.keras
+
+Epoch 67 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 418ms/step - accuracy: 0.9826 - loss: 0.3793 - val_accuracy: 0.9799 - val_loss: 0.3787 - learning_rate: 1.0000e-05
+Epoch 68/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 344ms/step - accuracy: 0.9834 - loss: 0.3844  
+Epoch 68: val_loss improved from 0.37870 to 0.37822, saving model to models/best_model.keras
+
+Epoch 68: finished saving model to models/best_model.keras
+
+Epoch 68 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 417ms/step - accuracy: 0.9820 - loss: 0.3813 - val_accuracy: 0.9799 - val_loss: 0.3782 - learning_rate: 1.0000e-05
+Epoch 69/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 350ms/step - accuracy: 0.9841 - loss: 0.3775  
+Epoch 69: val_loss did not improve from 0.37822
+
+Epoch 69 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 419ms/step - accuracy: 0.9826 - loss: 0.3798 - val_accuracy: 0.9799 - val_loss: 0.3783 - learning_rate: 1.0000e-05
+Epoch 70/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9817 - loss: 0.3839  
+Epoch 70: val_loss improved from 0.37822 to 0.37704, saving model to models/best_model.keras
+
+Epoch 70: finished saving model to models/best_model.keras
+
+Epoch 70 – Precision: 0.9801 | Recall: 0.9799 | F1: 0.9798
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 419ms/step - accuracy: 0.9835 - loss: 0.3794 - val_accuracy: 0.9799 - val_loss: 0.3770 - learning_rate: 1.0000e-05
+Epoch 71/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 350ms/step - accuracy: 0.9831 - loss: 0.3790  
+Epoch 71: val_loss improved from 0.37704 to 0.37610, saving model to models/best_model.keras
+
+Epoch 71: finished saving model to models/best_model.keras
+
+Epoch 71 – Precision: 0.9843 | Recall: 0.9842 | F1: 0.9842
+171/171 ━━━━━━━━━━━━━━━━━━━━ 73s 425ms/step - accuracy: 0.9822 - loss: 0.3798 - val_accuracy: 0.9842 - val_loss: 0.3761 - learning_rate: 1.0000e-05
+Epoch 72/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 368ms/step - accuracy: 0.9858 - loss: 0.3756  
+Epoch 72: val_loss improved from 0.37610 to 0.37585, saving model to models/best_model.keras
+
+Epoch 72: finished saving model to models/best_model.keras
+
+Epoch 72 – Precision: 0.9815 | Recall: 0.9813 | F1: 0.9813
+171/171 ━━━━━━━━━━━━━━━━━━━━ 76s 442ms/step - accuracy: 0.9829 - loss: 0.3801 - val_accuracy: 0.9813 - val_loss: 0.3759 - learning_rate: 1.0000e-05
+Epoch 73/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 346ms/step - accuracy: 0.9827 - loss: 0.3779  
+Epoch 73: val_loss did not improve from 0.37585
+
+Epoch 73 – Precision: 0.9829 | Recall: 0.9828 | F1: 0.9827
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 415ms/step - accuracy: 0.9824 - loss: 0.3783 - val_accuracy: 0.9828 - val_loss: 0.3762 - learning_rate: 1.0000e-05
+Epoch 74/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 344ms/step - accuracy: 0.9812 - loss: 0.3786  
+Epoch 74: val_loss improved from 0.37585 to 0.37487, saving model to models/best_model.keras
+
+Epoch 74: finished saving model to models/best_model.keras
+
+Epoch 74 – Precision: 0.9843 | Recall: 0.9842 | F1: 0.9842
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 416ms/step - accuracy: 0.9831 - loss: 0.3775 - val_accuracy: 0.9842 - val_loss: 0.3749 - learning_rate: 1.0000e-05
+Epoch 75/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 343ms/step - accuracy: 0.9817 - loss: 0.3796  
+Epoch 75: val_loss improved from 0.37487 to 0.37434, saving model to models/best_model.keras
+
+Epoch 75: finished saving model to models/best_model.keras
+
+Epoch 75 – Precision: 0.9828 | Recall: 0.9828 | F1: 0.9827
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 414ms/step - accuracy: 0.9826 - loss: 0.3790 - val_accuracy: 0.9828 - val_loss: 0.3743 - learning_rate: 1.0000e-05
+Epoch 76/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9878 - loss: 0.3753  
+Epoch 76: val_loss did not improve from 0.37434
+
+Epoch 76 – Precision: 0.9843 | Recall: 0.9842 | F1: 0.9841
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 414ms/step - accuracy: 0.9860 - loss: 0.3753 - val_accuracy: 0.9842 - val_loss: 0.3744 - learning_rate: 1.0000e-05
+Epoch 77/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9837 - loss: 0.3763  
+Epoch 77: val_loss did not improve from 0.37434
+
+Epoch 77 – Precision: 0.9828 | Recall: 0.9828 | F1: 0.9827
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 416ms/step - accuracy: 0.9820 - loss: 0.3768 - val_accuracy: 0.9828 - val_loss: 0.3749 - learning_rate: 1.0000e-05
+Epoch 78/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 347ms/step - accuracy: 0.9846 - loss: 0.3755  
+Epoch 78: val_loss did not improve from 0.37434
+
+Epoch 78 – Precision: 0.9828 | Recall: 0.9828 | F1: 0.9827
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 416ms/step - accuracy: 0.9848 - loss: 0.3751 - val_accuracy: 0.9828 - val_loss: 0.3747 - learning_rate: 1.0000e-05
+Epoch 79/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 343ms/step - accuracy: 0.9823 - loss: 0.3772  
+Epoch 79: val_loss improved from 0.37434 to 0.37368, saving model to models/best_model.keras
+
+Epoch 79: finished saving model to models/best_model.keras
+
+Epoch 79 – Precision: 0.9857 | Recall: 0.9856 | F1: 0.9856
+171/171 ━━━━━━━━━━━━━━━━━━━━ 71s 415ms/step - accuracy: 0.9818 - loss: 0.3774 - val_accuracy: 0.9856 - val_loss: 0.3737 - learning_rate: 1.0000e-05
+Epoch 80/80
+171/171 ━━━━━━━━━━━━━━━━━━━━ 0s 349ms/step - accuracy: 0.9877 - loss: 0.3708  
+Epoch 80: val_loss improved from 0.37368 to 0.37357, saving model to models/best_model.keras
+
+Epoch 80: finished saving model to models/best_model.keras
+
+Epoch 80 – Precision: 0.9857 | Recall: 0.9856 | F1: 0.9856
+171/171 ━━━━━━━━━━━━━━━━━━━━ 72s 422ms/step - accuracy: 0.9864 - loss: 0.3726 - val_accuracy: 0.9856 - val_loss: 0.3736 - learning_rate: 1.0000e-05
+
+Fine-tuning ran for 30 epoch(s)
+
+Models saved.
+
+=== Final Test Evaluation ===
+Test Loss: 0.3825, Test Accuracy: 0.9755
+
+Generating predictions with TTA (n=10)...
+
+=== Post-Training Threshold Optimization (on validation set) ===
+  Minimum thresholds enforced — Cercospora: 0.45, Healthy: 0.45
+Running coarse 2D grid search...
+Fine-tuning around best coarse point...
+
+Baseline (argmax):     Macro F1 = 0.9821
+Optimized thresholds:  Macro F1 = 0.9852
+  Cercospora threshold: 0.55  (min floor: 0.45)
+  Healthy threshold:    0.60  (min floor: 0.45)
+
+Val set per-class with optimized thresholds:
+  cercospora_leaf_spot: Recall=0.972, Precision=1.000
+  healthy: Recall=1.000, Precision=0.992
+  other_diseases: Recall=0.985, Precision=0.964
+Saved → models/threshold_config.json
+
+--- Baseline argmax ---
+Cercospora Recall: 0.976
+OD Recall:         0.976
+Overall Acc:       0.988
+
+--- Threshold-Optimized (Cercospora=0.55, Healthy=0.60) ---
+Cercospora Recall: 0.968
+OD Recall:         0.984
+Overall Acc:       0.986
+  Saved → web\static\plots\training_history.png
+  Saved → web\static\plots\confusion_matrix.png
+  Saved → web\static\plots\per_class_metrics.png
+  Saved → web\static\plots\support_distribution.png
+  Saved → web\static\plots\prf1_over_epochs.png
+  Saved → web\static\plots\roc_curve.png
+  Saved → web\static\plots\overall_performance.png
+
+All plots saved to: web\static\plots
+
+======================================================================
+FINAL PERFORMANCE SUMMARY  (Best checkpoint + TTA + Optimized Thresholds)
+======================================================================
+Head epochs run:      50
+Fine-tune epochs run: 30
+TTA steps:            10
+Cercospora threshold: 0.55  (min floor: 0.45)
+Healthy threshold:    0.60  (min floor: 0.45)
+other_diseases:       last resort (predicted when neither threshold is met)
+----------------------------------------------------------------------
+Test Accuracy:        0.9755
+Weighted Precision:   0.9867
+Weighted Recall:      0.9864
+Weighted F1-Score:    0.9864
+ROC-AUC (macro):      0.9998
+======================================================================
+
+======================================================================
+PER-CLASS PERFORMANCE SUMMARY
+======================================================================
+Classes                    Precision     Recall   F1-Score    Support
+----------------------------------------------------------------------
+cercospora_leaf_spot          0.9959     0.9679     0.9817        249
+healthy                       0.9945     1.0000     0.9972        361
+other_diseases                0.9462     0.9840     0.9647        125
+----------------------------------------------------------------------
+
+Accuracy                                            0.9755        735
+Macro avg.                    0.9788     0.9840     0.9812        735
+Weighted avg.                 0.9867     0.9864     0.9864        735
+======================================================================
+
+Training complete!
+  Best model       → models/best_model.keras
+  Final model      → models/final_model.keras
+  Threshold config → models/threshold_config.json
+  Plots            → web\static\plots
+(venv) PS C:\Github-Projetcs\chili-detector\version3> 
