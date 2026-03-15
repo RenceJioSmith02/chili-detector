@@ -29,10 +29,10 @@ BATCH_SIZE = 32
 
 INITIAL_EPOCHS = 50
 FINE_TUNE_EPOCHS = 30
-FINE_TUNE_AT = 150           # freeze layers 0..149, unfreeze 150+
+FINE_TUNE_AT = 150          
 LEARNING_RATE_HEAD = 1e-3
-LEARNING_RATE_FINE = 1e-5    # raised from 1e-6 → real fine-tuning signal
-LABEL_SMOOTHING    = 0.1     # label smoothing for better calibration
+LEARNING_RATE_FINE = 1e-5    
+LABEL_SMOOTHING    = 0.1     
 
 # ── Class indices (alphabetical, as Keras assigns them) ──────────────────────
 # cercospora_leaf_spot = 0  |  healthy = 1  |  other_diseases = 2
@@ -40,12 +40,9 @@ CERCOSPORA_IDX = 0
 HEALTHY_IDX    = 1
 OD_IDX         = 2
 
-# ── Minimum thresholds — grid search will never go below these ───────────────
-# Raise these if you want more conservative predictions.
-# Priority order: cercospora → healthy → other_diseases (last resort)
-MIN_CERCOSPORA_THRESH = 0.45   # never predict cercospora below this confidence
-MIN_HEALTHY_THRESH    = 0.45   # never predict healthy below this confidence
-#   anything below both thresholds → other_diseases (last resort)
+# ── Minimum thresholds —───────────────
+MIN_CERCOSPORA_THRESH = 0.45   
+MIN_HEALTHY_THRESH    = 0.45   
 
 os.makedirs("models", exist_ok=True)
 
@@ -229,8 +226,8 @@ callbacks_finetune = make_callbacks(
 )
 history2 = model.fit(
     train_ds,
-    epochs=TOTAL_EPOCHS,              # absolute endpoint
-    initial_epoch=actual_head_epochs, # pick up where head stopped
+    epochs=TOTAL_EPOCHS,              
+    initial_epoch=actual_head_epochs, 
     validation_data=val_ds,
     callbacks=callbacks_finetune,
     class_weight=class_weights,
@@ -275,7 +272,6 @@ tta_aug = keras.Sequential([
 
 @tf.function
 def tta_predict(images):
-    """Average softmax probabilities over TTA_STEPS augmented copies."""
     probs = tf.zeros((tf.shape(images)[0], NUM_CLASSES))
     for _ in tf.range(TTA_STEPS):
         aug = tta_aug(images, training=True)
@@ -301,14 +297,6 @@ y_score = np.array(y_score)
 #   - Healthy is a confident positive state; prefer it over the catch-all.
 #   - other_diseases is a last resort — the dataset does not cover all diseases,
 #     so we only predict it when the model is not confident in either primary class.
-#
-# Minimum thresholds (MIN_CERCOSPORA_THRESH, MIN_HEALTHY_THRESH) prevent the
-# grid search from selecting thresholds that are too permissive (e.g. 0.22),
-# which caused over-prediction of primary classes at low confidence.
-#
-# A 2D grid search over cercospora_thresh × healthy_thresh maximizes macro F1
-# on the validation set, subject to the minimum threshold floors.
-# Result saved to models/threshold_config.json for app.py to load at startup.
 # ==========================================
 print("\n=== Post-Training Threshold Optimization (on validation set) ===")
 print(f"  Minimum thresholds enforced — Cercospora: {MIN_CERCOSPORA_THRESH}, Healthy: {MIN_HEALTHY_THRESH}")
@@ -329,10 +317,6 @@ def predict_with_thresholds(scores_array, cercospora_thresh, healthy_thresh):
       1. cercospora score >= cercospora_thresh → cercospora_leaf_spot
       2. healthy score    >= healthy_thresh    → healthy
       3. else                                  → other_diseases  (last resort)
-
-    other_diseases is the fallback because the dataset does not cover all
-    possible diseases — it should only be predicted when the model cannot
-    confidently commit to either cercospora or healthy.
     """
     preds = []
     for scores in scores_array:
@@ -408,7 +392,6 @@ print("Saved → models/threshold_config.json")
 
 # ==========================================
 # APPLY THRESHOLDS TO TEST SET
-# Use TTA scores + optimized thresholds for all evaluation below
 # ==========================================
 y_pred_argmax = np.argmax(y_score, axis=1)
 y_pred        = predict_with_thresholds(y_score, best_cercospora_thresh, best_healthy_thresh)
@@ -669,3 +652,8 @@ print(f"  Best model       → models/best_model.keras")
 print(f"  Final model      → models/final_model.keras")
 print(f"  Threshold config → models/threshold_config.json")
 print(f"  Plots            → {PLOTS_DIR}")
+
+
+
+
+

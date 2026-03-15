@@ -11,8 +11,6 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = os.path.join('static', 'uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# compile=False: avoids needing to register the custom focal_loss function
-# at load time. We only use the model for inference, so this is safe.
 model = load_model("../models/best_model.keras", compile=False)
 
 with open("../models/class_names.json", "r") as f:
@@ -22,18 +20,10 @@ print("Loaded class order:", CLASSES)
 # Expected: ['cercospora_leaf_spot', 'healthy', 'other_diseases']
 
 # ── Load optimized thresholds saved by training script ───────────────────────
-# The 2D grid search in mobilenetv2_train.py finds the cercospora and healthy
-# thresholds that maximize macro F1 on the validation set, subject to minimum
-# threshold floors (MIN_CERCOSPORA_THRESH=0.45, MIN_HEALTHY_THRESH=0.45).
-#
 # Priority order:
 #   1. cercospora_leaf_spot  — highest crop damage risk, catch it first
 #   2. healthy               — preferred over catch-all when confident
 #   3. other_diseases        — last resort, only when neither threshold is met
-#
-# other_diseases is the fallback because the dataset does not cover all
-# possible diseases. Predicting it only at low confidence in both primary
-# classes makes it a genuine "uncertain" signal rather than a silent default.
 _THRESHOLD_CONFIG_PATH = "../models/threshold_config.json"
 if os.path.exists(_THRESHOLD_CONFIG_PATH):
     with open(_THRESHOLD_CONFIG_PATH) as f:
@@ -91,24 +81,6 @@ def classify_with_thresholds(preds):
       1. If cercospora score >= CERCOSPORA_THRESHOLD → cercospora_leaf_spot
       2. Elif healthy score  >= HEALTHY_THRESHOLD    → healthy
       3. Else                                         → other_diseases  (last resort)
-
-    WHY this order:
-      - Cercospora causes the most visible crop damage and spreads fast.
-        We want to catch it even at lower confidence, so it gets first priority.
-      - Healthy is a confident positive state — we prefer it over the catch-all.
-      - other_diseases last — only predict it when the model cannot confidently
-        commit to either of the two primary classes. The dataset does not cover
-        all diseases, so this class should never be the eager default.
-
-    WHY minimum threshold floors matter:
-      - Without floors the grid search produced thresholds as low as 0.22,
-        meaning the model would label images as cercospora or healthy at very
-        low confidence, leaving almost nothing for other_diseases.
-      - Floors of 0.45 ensure a meaningful confidence bar before either
-        primary class is predicted.
-
-    Returns:
-      predicted_class (str), decision_score (float)
     """
     cercospora_score = float(preds[CERCOSPORA_IDX])
     healthy_score    = float(preds[HEALTHY_IDX])
