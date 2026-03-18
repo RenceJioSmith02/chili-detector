@@ -41,8 +41,8 @@ HEALTHY_IDX    = 1
 OD_IDX         = 2
 
 # ── Minimum thresholds —───────────────
-MIN_CERCOSPORA_THRESH = 0.45   
-MIN_HEALTHY_THRESH    = 0.45   
+MIN_CERCOSPORA_THRESH = 0.5   
+MIN_HEALTHY_THRESH    = 0.5   
 
 os.makedirs("models", exist_ok=True)
 
